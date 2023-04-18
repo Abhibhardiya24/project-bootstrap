@@ -1,0 +1,232 @@
+/*  Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .image {
+        height: 70%;
+        width: 100%;
+        margin-top: 5px;
+    }
+
+    .nav-link {
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .image1 {
+        height: 50%;
+        width: 140%;
+    }
+
+    .image2 {
+        height: 18%;
+        width: 100%;
+    }
+
+    .navmenu {
+        display: flex;
+        list-style: none;
+        margin-top: 24px;
+        padding-left: 0px;
+    }
+
+    .loginmenu {
+        margin-top: 41px;
+        padding-left: 41px;
+    }
+
+    .btn {
+        margin: 5px;
+        margin-top: 0px;
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .image {
+        height: 100%;
+        width: 120%;
+        margin-top: 5px;
+    }
+
+    .nav-link {
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .image1 {
+        height: 100%;
+        width: 85%;
+    }
+
+    .image2 {
+        height: 100%;
+        width: 100%;
+    }
+
+    .navmenu {
+        margin-top: 24px;
+        display: flex;
+        margin: 12px;
+        list-style: none;
+        padding-left: 0px;
+    }
+
+    .btn {
+        margin-top: 25px;
+        margin: 5px;
+        padding: 10px;
+        height: 60px;
+        width: 63px;
+    }
+
+    .loginmenu {
+        margin-top: 76px;
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .image {
+        height: 100%;
+        width: 85%;
+        margin-top: 5px;
+    }
+
+    
+    .navmenu {
+        display: flex;
+        list-style: none;
+        margin-top: 19px;
+        margin-left: 5px;
+        padding-left: 0px;
+
+    }
+
+    .image1 {
+        height: 100%;
+        width: 85%;
+    }
+
+    .image2 {
+        height: 100%;
+        width: 100%;
+    }
+    .btn {
+        display: flex;
+        padding: 11px;
+        margin: 10px;
+        justify-content: center;
+        height: 63px;
+        width: 120px;
+        margin-top: -26px;
+    }
+    .navmenu {
+        margin-top: 30px;
+        font-size: large;
+        margin: 16px;
+        margin-left: 0px;
+        padding: 4px;
+    }
+
+    .loginmenu {
+        margin-top: 33px;
+        padding-left: -3px;
+    }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .image {
+        height: 100%;
+        width: 82%;
+        margin-top: 5px;
+    }
+
+    .nav-link {
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .image1 {
+        height: 100%;
+        width: 85%;
+    }
+
+    .image2 {
+        height: 100%;
+        width: 100%;
+    }
+
+    .navmenu {
+        display: flex;
+        margin-top: 70px;
+        font-size: 18px;
+        margin: 24px;
+        padding: 4px;
+        justify-content: center;
+    }
+
+    .btn {
+        display: flex;
+        padding: 11px;
+        margin: 10px;
+        justify-content: center;
+        height: 50px;
+        width: 92px;
+        margin-top: -10px;
+    }
+}
+
+.loginmenu {
+    margin-top: 57px;
+}
+
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .image {
+        height: 100%;
+        width: 82%;
+        margin-top: 5px;
+    }
+
+    .nav-link {
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .image1 {
+        height: 100%;
+        width: 85%;
+    }
+
+    .image2 {
+        height: 100%;
+        width: 100%;
+    }
+
+    .navmenu {
+        margin-top: 50px;
+        margin: 5px;
+        padding: 24px;
+        font-size: 18px;
+    }
+
+    .btn {
+        display: flex;
+        height: 50px;
+        width: 100px;
+        padding: 10px;
+        margin: 16px;
+        margin-top: 12px;
+        justify-content: center;
+    }
+
+    .loginmenu{
+        margin-top: 38px;
+    }
